@@ -46,7 +46,7 @@ const projectsCol2 = [
   {
     title: 'Store Management System',
     description: 'A store management system project implemented with Filament. For a comprehensive overview, visit the GitHub.',
-    push: 'https://github.com/otaaaviio/udep-store',
+    push: 'https://github.com/otaaaviio/filament-store',
     stacks: ['LARAVEL', 'PHP', 'POSTGRESQL', 'FILAMENT']
   },
 ]
