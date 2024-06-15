@@ -22,10 +22,12 @@
 </template>
 
 <script lang="ts">
+import { Project } from '@/interfaces/project'
+
 export default {
   props: {
     projects: {
-      type: Array,
+      type: Array as () => Project[],
       required: true,
     },
   },

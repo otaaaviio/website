@@ -10,10 +10,8 @@ declare module 'vue' {
     About: typeof import('./src/components/about.vue')['default']
     AppFooter: typeof import('./src/components/app-footer.vue')['default']
     CardTemplate: typeof import('./src/components/card-template.vue')['default']
-    Footer: typeof import('./src/components/footer.vue')['default']
-    HelloWorld: typeof import('./src/components/HelloWorld.vue')['default']
     Projects: typeof import('./src/components/projects.vue')['default']
-    Test: typeof import('./src/components/test.vue')['default']
-    ViewProjects: typeof import('./src/components/view-projects.vue')['default']
+    RouterLink: typeof import('vue-router')['RouterLink']
+    RouterView: typeof import('vue-router')['RouterView']
   }
 }
