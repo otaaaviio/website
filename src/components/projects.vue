@@ -20,7 +20,7 @@ const projectsCol1 = [
   {
     title: 'Library',
     description: 'An online library with authentication for borrowing books, creating reading lists, and exploring new books. Full project details are available on GitHub.',
-    push: 'https://github.com/otaaaviio/library',
+    push: 'https://github.com/otaaaviio/library-repo',
     stacks: ['NESTJS', 'TS', 'POSTGRESQL', 'VUE', 'PRISMA']
   },
   {
