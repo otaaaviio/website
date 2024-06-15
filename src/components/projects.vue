@@ -4,10 +4,10 @@
     <div/>
   </v-row>
   <v-row class="d-flex justify-center">
-    <v-col cols="3">
+    <v-col cols="4">
       <card-template :projects="projectsCol1"/>
     </v-col>
-    <v-col cols="3">
+    <v-col cols="4">
       <card-template :projects="projectsCol2"/>
     </v-col>
   </v-row>
