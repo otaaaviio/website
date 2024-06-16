@@ -43,7 +43,7 @@ export default {
       text: '\nI\'m 23 yers old, and currently pursuing a degree in Computer Science at Federal University of Santa Maria (UFSM), Rio Grande do Sul, Brasil.<br>' +
         '\nMy desire to learn about technology and programming, especially about the foundations of computing, made me a very ambitious and hard workind person,' +
         '\n as i\'m always looking forward to improve my skills.' +
-        '\nActually i\'m working at <a href="https://www.jetimob.com/" class="text-decoration-none" target="_blank">Jetimob<\a>,' +
+        '\nCurrently i\'m working at <a href="https://www.jetimob.com/" class="text-decoration-none" target="_blank">Jetimob<\a>,' +
         '\n as a Full Stack Web Developer, this jobs helped me improve, not only my programming skills, but also my social skills.<br>' +
         '\n<br>I started in the area in 2022 and i have experience with:' +
         '\nMongoDB, PostgreSQL, NodeJS, Laravel, Spring Boot, React, Vue, Flutter, Docker, Git, among others.' +
