@@ -1,13 +1,12 @@
 <template>
-  <v-row class="d-flex justify-space-evenly mt-5">
+  <v-col class="d-flex mt-5 margin-col" cols="12" offset-md="2">
     <h1>Here You can Discover and Explore My Development Projects</h1>
-    <div/>
-  </v-row>
+  </v-col>
   <v-row class="d-flex justify-center">
-    <v-col cols="4">
+    <v-col cols="11" md="4" class="cards-top">
       <card-template :projects="projectsCol1"/>
     </v-col>
-    <v-col cols="4">
+    <v-col cols="11" md="4" class="cards-bottom">
       <card-template :projects="projectsCol2"/>
     </v-col>
   </v-row>
@@ -51,4 +50,15 @@ const projectsCol2 = [
   },
 ]
 </script>
+
+<style scoped>
+@media (max-width: 960px) {
+  .cards-bottom {
+    padding-top: 0;
+  }
+  .cards-top {
+    padding-bottom: 0;
+  }
+}
+</style>
 

@@ -1,3 +1,3 @@
 ### Website for portfolios
 
-Otávio G. Lamberty
+Otávio Gonçalves

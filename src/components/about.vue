@@ -1,11 +1,11 @@
 <template>
-  <v-row class="d-flex justify-center">
-    <v-col class="d-flex justify-start flex-column mt-16" cols="5">
-      <h1>Hi, There! <br>I am Otávio Gonçalves Lamberty</h1>
+  <v-row class="d-flex justify-center align-center flex-md-row flex-column">
+    <v-col class="d-flex justify-start flex-column mt-16" cols="11" md="5">
+      <h1>Hi, There! <br>I'm Otávio Gonçalves Lamberty</h1>
       <v-divider class="mr-3 mt-5 mb-5" :thickness="2" color="white"/>
-      <h4 class="mt-5 pr-10 font-weight-regular" v-html="text"/>
+      <h4 class="mt-5 pr-md-10 font-weight-regular text-justify" v-html="text"/>
     </v-col>
-    <v-col  cols="5" class="d-flex justify-center align-center">
+    <v-col cols="12" md="5" class="d-flex justify-center align-center">
       <v-row class="elevation-10 pa-5 rounded-lg">
         <v-col class="d-flex flex-column" cols="3">
           <v-row>

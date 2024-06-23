@@ -3,7 +3,7 @@
     v-for="(item, index) in projects" :key="index"
     variant="tonal"
     elevation="10"
-    class=" my-5 d-flex flex-column outlined-card"
+    class="mb-5 d-flex flex-column outlined-card"
     height="250"
     :href="item.push"
     target="_blank"

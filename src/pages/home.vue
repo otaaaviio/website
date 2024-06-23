@@ -17,7 +17,7 @@
           :key="item.title"
           :href="item.href"
           :title="item.title"
-          class="d-inline-block mx-3 social-link no-color"
+          class="d-inline-block mx-3 social-link no-color mr-1"
           rel="noopener noreferrer"
           target="_blank"
         >
