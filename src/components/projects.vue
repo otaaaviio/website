@@ -26,13 +26,13 @@ const projectsCol1 = [
     title: 'Discord Clone',
     description: 'A full-stack Discord Clone project with live messages, authentication and mockery and pest tests. Visit GitHub for a complete overview.',
     push: 'https://github.com/otaaaviio/disc-laravel',
-    stacks: ['LARAVEL', 'PHP', 'POSTGRESQL', 'SANCTUM', 'PEST', 'MOCKERY']
+    stacks: ['LARAVEL', 'POSTGRESQL', 'SANCTUM', 'PEST', 'MOCKERY']
   },
   {
     title: 'Stock Control',
     description: 'A stock control project. Check out the GitHub repository for more information.',
     push: 'https://github.com/otaaaviio/controle-de-estoque',
-    stacks: ['LARAVEL', 'PHP', 'POSTGRESQL', 'FILAMENT', 'PEST']
+    stacks: ['LARAVEL', 'POSTGRESQL', 'FILAMENT', 'PEST']
   },
 ]
 const projectsCol2 = [
@@ -40,13 +40,19 @@ const projectsCol2 = [
     title: 'Control Academy API',
     description: 'A Spring Boot project for managing an academic environment with robust tests. More details can be found on its GitHub page.',
     push: 'https://github.com/otaaaviio/control-academy',
-    stacks: ['SPRING BOOT', 'JAVA', 'POSTGRESQL', 'MOCKITO']
+    stacks: ['SPRING BOOT', 'POSTGRESQL', 'MOCKITO']
   },
   {
     title: 'Store Management System',
     description: 'A store management system project implemented with Filament. For a comprehensive overview, visit the GitHub.',
     push: 'https://github.com/otaaaviio/filament-store',
-    stacks: ['LARAVEL', 'PHP', 'POSTGRESQL', 'FILAMENT']
+    stacks: ['LARAVEL', 'POSTGRESQL', 'FILAMENT']
+  },
+  {
+    title: 'Link Shortener',
+    description: 'A Link Shortener API implmented with Redis. For more details, access the GitHub',
+    push: 'https://github.com/otaaaviio/link-shortener',
+    stacks: ['LARAVEL', 'REDIS', 'POSTGRESQL', 'PEST']
   },
 ]
 </script>
