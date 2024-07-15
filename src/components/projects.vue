@@ -1,6 +1,6 @@
 <template>
   <v-col class="d-flex mt-5 margin-col" cols="12" offset-md="2">
-    <h1>Here You can Discover and Explore My Development Projects</h1>
+    <h1>Here You can Discover and Explore My Development Projects!</h1>
   </v-col>
   <v-row class="d-flex justify-center">
     <v-col cols="11" md="4" class="cards-top">
@@ -18,19 +18,25 @@ import CardTemplate from "@/components/card-template.vue";
 const projectsCol1 = [
   {
     title: 'Library',
-    description: 'An online library with authentication for borrowing books, creating reading lists, and exploring new books. Full project details are available on GitHub.',
+    description: 'An online library with authentication for borrowing books, creating reading lists, and exploring new books.',
     push: 'https://github.com/otaaaviio/library-repo',
     stacks: ['NESTJS', 'TS', 'POSTGRESQL', 'VUE', 'PRISMA']
   },
   {
+    title: 'Redis Implementation',
+    description: 'Redis implementation inspired by the CodeCrafters Challenge, showcasing advanced caching and data management skills.',
+    push: 'https://github.com/otaaaviio/redis-typescript',
+    stacks: ['NODEJS', 'TS']
+  },
+  {
     title: 'Discord Clone',
-    description: 'A full-stack Discord Clone project with live messages, authentication and mockery and pest tests. Visit GitHub for a complete overview.',
+    description: 'A full-stack Discord Clone with live messaging, authentication, and robust testing with Mockery and Pest.',
     push: 'https://github.com/otaaaviio/disc-laravel',
     stacks: ['LARAVEL', 'POSTGRESQL', 'SANCTUM', 'PEST', 'MOCKERY']
   },
   {
     title: 'Stock Control',
-    description: 'A stock control project. Check out the GitHub repository for more information.',
+    description: 'Stock control project developed with the Filament Framework, focusing on efficiency and ease of use.',
     push: 'https://github.com/otaaaviio/controle-de-estoque',
     stacks: ['LARAVEL', 'POSTGRESQL', 'FILAMENT', 'PEST']
   },
@@ -38,19 +44,19 @@ const projectsCol1 = [
 const projectsCol2 = [
   {
     title: 'Control Academy API',
-    description: 'A Spring Boot project for managing an academic environment with robust tests. More details can be found on its GitHub page.',
+    description: 'A Spring Boot API for academic management, featuring robust testing and innovative features for modern education.',
     push: 'https://github.com/otaaaviio/control-academy',
     stacks: ['SPRING BOOT', 'POSTGRESQL', 'MOCKITO']
   },
   {
     title: 'Store Management System',
-    description: 'A store management system project implemented with Filament. For a comprehensive overview, visit the GitHub.',
+    description: 'Store management system implemented with the Filament Framework, optimizing operations and enhancing user experience.',
     push: 'https://github.com/otaaaviio/filament-store',
     stacks: ['LARAVEL', 'POSTGRESQL', 'FILAMENT']
   },
   {
     title: 'Link Shortener',
-    description: 'A Link Shortener API implmented with Redis. For more details, access the GitHub',
+    description: 'Link Shortener API using Redis and Laravel for high performance and scalability.',
     push: 'https://github.com/otaaaviio/link-shortener',
     stacks: ['LARAVEL', 'REDIS', 'POSTGRESQL', 'PEST']
   },
